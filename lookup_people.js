@@ -20,7 +20,7 @@ client.connect((err) => {
     if (err) {
       return console.error("error running query", err);
     }
-    printRows(result); //output: 1
+    printRows(result);
     client.end();
   });
 });
